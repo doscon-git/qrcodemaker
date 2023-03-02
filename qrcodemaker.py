@@ -31,8 +31,6 @@ def create_qr_code(event):
     entryfield.delete("0","end")
     filenamefield.delete("0","end")
     
-
-
 mainwindow = tk.Tk()
 tk.Label(text="Enter link: ").pack()
 entryfield = tk.Entry(width=150)
